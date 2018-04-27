@@ -1,5 +1,5 @@
 ---
-title: Parity
+title: Ellaism
 permalink: index.html
 ---
 
