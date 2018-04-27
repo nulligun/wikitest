@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-{% include head.html %}
+{% include header.html %}
 
 <body class="sidebar-overlay">
 
@@ -13,7 +13,7 @@
     <div class="masthead">
       <div class="container">
         <h1 class="masthead-title">
-          {{ page.title }} - Wiki
+          {{ page.title }}
           <a href="{{ site.baseurl }}/" title="Home"><small>{{ site.title }}</small></a>
         </h1>
       </div>
@@ -21,12 +21,12 @@
 
     <div class="container content">
       <div id="tipue_search_content"></div>
-      {{ content }} {% if page.hide_footer %} {% else %} {% include Footer.html %} {% endif %}
+      {{ content }}
     </div>
   </div>
 
   <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+  {% if page.hide_footer %} {% else %} {% include Footer.html %} {% endif %}
   <script>
     $(document).ready(function () {
       // Open the sidebar on load on bigger screens

@@ -1,4 +1,4 @@
-title: Parity Ethereum Documentation
+title: Ellaism Wiki
 defaults:
   -
     scope:
@@ -6,6 +6,7 @@ defaults:
     values:
       layout: "default"
 markdown: kramdown
+destination: "docs"
 tipue_search:
   include:
     pages: true
