@@ -1,1 +1,5 @@
-Testing.
+## [Ellaism](/)
+- [FAQ](FAQ)
+- [Pool List](Pool-List)
+- [Troubleshooting Mining](Troubleshooting-Mining)
+- [Uncategorized Ideas](Uncategorized-Ideas)
