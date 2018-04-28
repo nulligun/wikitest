@@ -1,3 +1,8 @@
+---
+title: Pool List
+permalink: pool-list.html
+---
+
 **Pools that Donate to Dev Fund**
 
 The Ellaism Dev Pool is used to keep the Dev Fund going, and other pools also donate to Dev Fund.
