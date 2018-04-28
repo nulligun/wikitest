@@ -1,11 +1,18 @@
 .sidebar {
   width: 17rem;
+    z-index: 10;
 }
 
 .sidebar-toggle {
   left: 2rem;
   position: fixed;
     color: #046111;
+    z-index:5;
+    opacity: 1;
+}
+
+.sidebar-checkbox:checked + label {
+    opacity: 0;
 }
 
 nav.sidebar-nav {
@@ -124,6 +131,23 @@ h6:hover .header-link {
     }
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 8rem;
+    min-height: 100%;
+}
+
+body .page__footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
 .page__footer footer {
     max-width: 1024px;
     margin-left: auto;
@@ -135,7 +159,7 @@ h6:hover .header-link {
 
 .page__footer-copyright {
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-    font-size: .6875em;
+    font-size: 1.0em;
 }
 
 .page__footer-follow ul {
@@ -149,7 +173,7 @@ h6:hover .header-link {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-    font-size: .75em;
+    font-size: 1.4em;
     text-transform: uppercase;
 }
 
@@ -180,3 +204,10 @@ h6:hover .header-link {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.wrap #tipue_search_content .tipue_search_content_text:last-child {
+    border-bottom: 1px solid #1f3a25;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
