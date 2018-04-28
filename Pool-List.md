@@ -1,6 +1,5 @@
 ---
 title: Pool List
-permalink: pool-list.html
 ---
 
 **Pools that Donate to Dev Fund**
