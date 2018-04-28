@@ -3,4 +3,4 @@ title: Ellaism
 permalink: index.html
 ---
 
-Welcome to the meta wiki!
+Welcome to the meta wiki!!

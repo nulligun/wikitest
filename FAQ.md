@@ -1,6 +1,5 @@
 ---
 title: FAQ
-permalink: FAQ.html
 ---
 
 **Does Ellaism have or plan to have masternodes?**
