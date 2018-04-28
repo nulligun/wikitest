@@ -5,6 +5,7 @@
 .sidebar-toggle {
   left: 2rem;
   position: fixed;
+    color: #046111;
 }
 
 nav.sidebar-nav {
